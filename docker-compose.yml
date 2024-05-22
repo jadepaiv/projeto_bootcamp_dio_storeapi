@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  storeapi:
+    image: storeapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile
